@@ -1,0 +1,6 @@
+{
+  "name": "CLICKBAGE 360° - Atendimento Exclusivo para Eventos",
+  "description": "Biosite conversacional premium da CLICKBAGE 360°. Plataforma 360°, totem fotográfico e soluções exclusivas para casamentos, formaturas, aniversários e eventos corporativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

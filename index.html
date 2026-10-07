@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>CLICKBAGE 360° - Atendimento Exclusivo para Eventos</title>
+    <meta
+      name="description"
+      content="Biosite conversacional premium da CLICKBAGE 360°. Plataforma 360°, totem fotográfico e soluções exclusivas para casamentos, formaturas, aniversários e eventos corporativos."
+    />
+    <meta name="theme-color" content="#030303" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Open Graph & Redes Sociais -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CLICKBAGE 360°" />
+    <meta property="og:title" content="CLICKBAGE 360° - Atendimento Exclusivo para Eventos" />
+    <meta
+      property="og:description"
+      content="Inicie agora seu atendimento exclusivo. Plataforma 360°, Totem Fotográfico e Locação para Eventos inesquecíveis."
+    />
+    <meta property="og:image" content="https://i.postimg.cc/PfKNPLML/F2F0E96E-03E1-480B-9B55-9B4B1DCB00E9.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="CLICKBAGE 360° - Atendimento Exclusivo" />
+    <meta
+      name="twitter:description"
+      content="Experiência conversacional premium para casamentos, formaturas e eventos corporativos."
+    />
+    <meta name="twitter:image" content="https://i.postimg.cc/PfKNPLML/F2F0E96E-03E1-480B-9B55-9B4B1DCB00E9.png" />
+
+    <!-- Favicon Oficial -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/PfKNPLML/F2F0E96E-03E1-480B-9B55-9B4B1DCB00E9.png" />
+
+    <!-- Tipografia Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos do Biosite -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Background Cinematográfico Escuro com elementos 360° e poeira estelar dourada -->
+    <div class="ambient-bg" aria-hidden="true">
+      <div class="ambient-ring"></div>
+      <div class="ambient-dust"></div>
+    </div>
+
+    <!-- Barra de Progresso Dourada Superior -->
+    <div class="progress-bar-wrap" aria-hidden="true">
+      <div id="progress-fill" class="progress-bar-fill"></div>
+    </div>
+
+    <!-- Aplicação Principal Centralizada -->
+    <main class="chat-app">
+      <!-- Cabeçalho Flutuante Premium -->
+      <header class="chat-header" role="banner">
+        <div class="header-content">
+          <div class="header-brand-wrap">
+            <!-- Avatar Oficial com Transparência Preservada -->
+            <div class="avatar-container" title="CLICKBAGE 360°">
+              <img
+                class="avatar-img"
+                src="https://i.postimg.cc/PfKNPLML/F2F0E96E-03E1-480B-9B55-9B4B1DCB00E9.png"
+                alt="Logo CLICKBAGE 360°"
+                loading="eager"
+              />
+              <span class="status-indicator" title="Atendimento Online"></span>
+            </div>
+
+            <div class="brand-text">
+              <h1 class="brand-title">
+                CLICKBAGE 360°
+                <span class="brand-badge">OFICIAL</span>
+              </h1>
+              <p class="brand-subtitle">
+                Atendimento online <span aria-hidden="true">·</span>
+                <span class="brand-motto">Vamos montar seu evento?</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Ações do Cabeçalho -->
+          <div class="header-actions">
+            <!-- Botão Voltar Dinâmico -->
+            <button
+              id="btn-back"
+              class="btn-header hidden"
+              type="button"
+              aria-label="Voltar para a pergunta anterior"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              <span>Voltar</span>
+            </button>
+
+            <!-- Toggle de Efeito Sonoro Luxury -->
+            <button
+              id="btn-sound"
+              class="btn-sound-toggle"
+              type="button"
+              aria-label="Ativar/Desativar som de notificações"
+              title="Ativar/Desativar som"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </button>
+
+            <!-- Reiniciar Atendimento -->
+            <button
+              id="btn-restart"
+              class="btn-sound-toggle"
+              type="button"
+              aria-label="Reiniciar atendimento"
+              title="Reiniciar atendimento"
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Histórico de Mensagens do Chat -->
+      <section
+        id="chatMessages"
+        class="chat-messages"
+        role="log"
+        aria-live="polite"
+        aria-label="Mensagens do atendimento"
+      ></section>
+
+      <!-- Região Ativa de Respostas e Ações -->
+      <section
+        id="chatActions"
+        class="chat-actions"
+        aria-label="Opções de resposta"
+      ></section>
+    </main>
+
+    <!-- Script Principal Vanilla JS -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
